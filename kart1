@@ -9,9 +9,7 @@ zad1.)
   /* Utworzenie lacza */ 
   pipe(fd) 
     if ((child = fork()) == 0) { 
-       / *Proces  potomny – przesy
-ł
-a wiadomosc do macierzystego */ 
+       / *Proces  potomny – przesyła wiadomosc do macierzystego */ 
        close(fd[0]); 
        write(fd[1], buf, sizeof(buf); 
        close(fd[1]); 
