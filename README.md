@@ -1,5 +1,5 @@
-## Kartkówka 8:00 - Łącza
-# 1)Napisz szkic programu w którym,
+# Kartkówka 8:00 - Łącza
+## 1)Napisz szkic programu w którym,
 a) Proces macierzysty tworzy łącze PIPE.
 b) Tworzy proces potomny FORK
 c) Proces macierzysty wpisuje napis "cześć"
