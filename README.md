@@ -5,8 +5,8 @@ b) Tworzy proces potomny FORK
 c) Proces macierzysty wpisuje napis "cześć"
 d) Proces potomny odczytuje napis z  łącza i wprowadza na konsolę
 
-#include <unistd.h> 
-#include <stdlib.h> 
+#include <unistd.h>
+#include <stdlib.h>
  main() { 
   int fd[2], child; 
   char buf[] = "cześć"
